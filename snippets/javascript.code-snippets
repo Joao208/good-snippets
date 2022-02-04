@@ -1,0 +1,38 @@
+{
+  "JestTest": {
+    "prefix": "describe",
+    "body": [
+      "describe('[${TM_FILENAME_BASE/[^0-9^a-z]//gi}$1] Test case', () => {",
+      "\tbeforeEach(() => {$2});",
+      "",
+      "\tit('Should $3', () => {",
+      "\t\texpect(1).toBe(1);",
+      "\t});",
+      "});"
+    ],
+    "description": "Create jest test structure"
+  },
+  "JestIt": {
+    "prefix": "it",
+    "body": ["it('Should $1', () => {", "\texpect(1).toBe(1);", "});"],
+    "description": "Create new it for jest test"
+  },
+  "ArrowFunc": {
+    "prefix": "arrow",
+    "body": [
+      "const ${TM_FILENAME_BASE/[^0-9^a-z]//gi} = ($1) => {$2};",
+      "",
+      "module.exports = ${TM_FILENAME_BASE/[^0-9^a-z]//gi};"
+    ],
+    "description": "Create new arrow function"
+  },
+  "Function": {
+    "prefix": "function",
+    "body": [
+      "function ${TM_FILENAME_BASE/[^0-9^a-z]//gi}($1) {$2}",
+      "",
+      "module.exports = ${TM_FILENAME_BASE/[^0-9^a-z]//gi}"
+    ],
+    "description": "Create new function"
+  }
+}
