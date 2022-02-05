@@ -2,7 +2,7 @@
     "name": "good-snippets",
     "displayName": "good-snippets",
     "description": "Add Jest test structure, arrow functions and functions for typescrit and javascript",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "engines": {
         "vscode": "^1.64.0"
     },
@@ -14,8 +14,8 @@
     "license": "MIT",
     "homepage": "https://github.com/Joao208/good-snippets#readme",
     "repository": "https://github.com/Joao208/good-snippets",
-    "bugs":"https://github.com/Joao208/good-snippets/issues",
-    "icon":"images/icon.png",
+    "bugs": "https://github.com/Joao208/good-snippets/issues",
+    "icon": "images/icon.png",
     "keywords": [
         "snippets",
         "javascript",
