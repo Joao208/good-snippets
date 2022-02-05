@@ -2,7 +2,7 @@
     "name": "good-snippets",
     "displayName": "good-snippets",
     "description": "Add Jest test structure, arrow functions and functions for typescrit and javascript",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "vscode": "^1.64.0"
     },
